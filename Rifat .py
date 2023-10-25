@@ -832,22 +832,22 @@ def p_dump():
 def cutter():
     clear()
     print("Enter File Path / File Location \n")
-    ssb = input('Put File Name:')
+    rifat = input('Rifat.py:')
     print(" ")
-    sarfraz = input('Saving Put File Name:')
+    sarfraz = input(''Rifat.py:':')
     os.system('touch ' +sarfraz)
-    os.system('sort -r '+ssb+' | uniq > '+sarfraz)
+    os.system('sort -r '+rifat+' | uniq > '+sarfraz)
     os.system('clear')
     print(logo)
-    print("Removed Successful From File: " + ssb )
+    print("Removed Successful From File: " + rifat )
     print("New File Saved:" + sarfraz )
     print(47*'-')
     input(f"{S} Press Enter To Back Rifat Menu ")
-    SSB(allkey)       
+    Rifat(allkey)       
     
 def removef():
         os.system('rm -rf self.file');print(f'\n{R}Files Removed Successfully ...')
-        SSB(allkey)            
+        Rifat(allkey)            
  
 
 sarfraz()
